@@ -177,6 +177,7 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: rgba(117, 117, 117, 1);
+  display: block;
   padding: 32px 0;
 }
 
@@ -409,9 +410,6 @@ footer {
   display: flex;
   justify-content: center;
   gap: 8px;
-}
-
-.project-button-item {
   margin-bottom: 50px;
 }
 
@@ -438,6 +436,10 @@ footer {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+
+.project-item {
+  flex-basis: calc((100% - 2 * 30px) / 3);
 }
 
 .project-box {
